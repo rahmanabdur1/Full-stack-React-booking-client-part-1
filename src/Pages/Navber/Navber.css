@@ -12,16 +12,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+ 
 }
 .logo{
     font-weight: 500;
 }
 
 .navButton{
-    margin-right: 6px;
+    margin-left: 20px;
     border: 2px solid white;
     border-radius: 20px;
     padding: 10px;
     background-color: #003580;
     color: white;
-}
+} 

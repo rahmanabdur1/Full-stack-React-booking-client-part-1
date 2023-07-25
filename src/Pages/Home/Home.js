@@ -5,6 +5,8 @@ import Feature from '../Feature/Feature';
 import './Home.css'
 import PropertyList from '../PropertyList/PropertyList';
 import FeaturePropertyes from '../FeaturePropertyes/FeaturePropertyes';
+import MailList from '../MailList/MailList';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     return (
@@ -17,6 +19,8 @@ const Home = () => {
                 <PropertyList/>
                 <h1 className='homeTitle'>Homes guests love</h1>
                 <FeaturePropertyes></FeaturePropertyes>
+                <MailList></MailList>
+                <Footer></Footer>
             </div>
         </div>
     );
